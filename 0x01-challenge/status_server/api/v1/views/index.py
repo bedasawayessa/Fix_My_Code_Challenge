@@ -11,7 +11,7 @@ Here is the error
 """
 
 
-@app_views.route('/status', methods=['GET'], strict_slashes=False)
+@app_views.route('/api/v1/status', methods=['GET'], strict_slashes=False)
 def status():
     """ Status of the web server
     """
